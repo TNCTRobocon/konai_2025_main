@@ -1,2 +1,0 @@
-../Core/Src/robomas_kounai.cpp:2:1:robomas::robomas(CAN_HandleTypeDef*, CAN_TxHeaderTypeDef*, uint32_t*)	1
-../Core/Src/robomas_kounai.cpp:7:6:void robomas::rotate(float*)	1
