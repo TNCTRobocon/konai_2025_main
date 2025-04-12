@@ -19,7 +19,7 @@ struct RoboMaster {
     int torque;
     int target;
     float integral;
-    float derivative;
+    //float derivative;
     float Ki;
     float Kp;
     float Kd;
