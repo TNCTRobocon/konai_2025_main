@@ -151,10 +151,10 @@ int main(void)
   HAL_CAN_Start(&hcan2);
   //割り込み有効
 	CAN_FilterTypeDef can1_filter;
-	can1_filter.FilterIdHigh         = 0x114 << 5;      // フィルターID1
-	can1_filter.FilterIdLow          = 0x114 << 5;      // フィルターID2
-	can1_filter.FilterMaskIdHigh     = 0x114 << 5;      // フィルターID3
-	can1_filter.FilterMaskIdLow      = 0x114 << 5;      // フィルターID4
+	can1_filter.FilterIdHigh         = 0x514 << 5;      // フィルターID1
+	can1_filter.FilterIdLow          = 0x514 << 5;      // フィルターID2
+	can1_filter.FilterMaskIdHigh     = 0x514 << 5;      // フィルターID3
+	can1_filter.FilterMaskIdLow      = 0x514 << 5;      // フィルターID4
 	can1_filter.FilterScale          = CAN_FILTERSCALE_16BIT;  // フィルタースケール
 	can1_filter.FilterFIFOAssignment = CAN_FILTER_FIFO0;   // フィルターに割り当てるFIFO
 	can1_filter.FilterBank           = 0;  // フィルターバンクNo
