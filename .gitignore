@@ -3,3 +3,4 @@ Release/
 .settings/
 .mxproject
 *.launch
+.metadata/
